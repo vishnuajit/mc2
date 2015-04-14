@@ -655,7 +655,7 @@ h4 small {
 .page-header {
 	padding-bottom: 8px;
 	margin: 18px 0 27px;
-	border-bottom: 1px solid #eee;
+
 }
 ul,
 ol {
@@ -6021,7 +6021,7 @@ fieldset.radio.btn-group {
 	z-index: 100;
 }
 .page-header {
-	margin: 2px 0px 10px 0px;
+	
 	padding-bottom: 5px;
 }
 .input-prepend .chzn-container-single .chzn-single,
@@ -7445,4 +7445,22 @@ code {
 {
 	position:absolute;
 	left:300px;
+}
+.class-mcmainmenu-align
+{
+	/*background-color:#0F9;	*/
+	position:relative;
+	left:415px;
+	top:25px;
+
+	-webkit-border-radius: 0px !important;
+	-moz-border-radius: 6px !important;
+	border-radius: 0px !important;
+
+}
+.class-djslider
+{
+	padding:40px;
+	border:20px;	
+	
 }

@@ -1,7 +1,7 @@
 <?php
 class JConfig {
 	public $offline = '1';
-	public $offline_message = 'This site is down for maintenance.<br /> Please check back again soon.';
+	public $offline_message = 'Welcome to the Mind Create website.<br /> Please login.';
 	public $display_offline_message = '1';
 	public $offline_image = '';
 	public $sitename = 'Mind Create';
@@ -21,13 +21,13 @@ class JConfig {
 	public $secret = 'szn6YII43NikMJks';
 	public $gzip = '0';
 	public $error_reporting = 'default';
-	public $helpurl = 'http://help.joomla.org/proxy/index.php?option=com_help&amp;keyref=Help{major}{minor}:{keyref}';
+	public $helpurl = 'http://help.joomla.org/proxy/index.php?option=com_help&keyref=Help{major}{minor}:{keyref}';
 	public $ftp_host = '';
 	public $ftp_port = '';
 	public $ftp_user = '';
 	public $ftp_pass = '';
 	public $ftp_root = '';
-	public $ftp_enable = '';
+	public $ftp_enable = '0';
 	public $offset = 'UTC';
 	public $mailonline = '1';
 	public $mailer = 'mail';
@@ -58,4 +58,29 @@ class JConfig {
 	public $tmp_path = 'E:\\wamp\\www\\portfolios\\mc2/tmp';
 	public $lifetime = '15';
 	public $session_handler = 'database';
+	public $memcache_persist = '1';
+	public $memcache_compress = '0';
+	public $memcache_server_host = 'localhost';
+	public $memcache_server_port = '11211';
+	public $memcached_persist = '1';
+	public $memcached_compress = '0';
+	public $memcached_server_host = 'localhost';
+	public $memcached_server_port = '11211';
+	public $proxy_enable = '0';
+	public $proxy_host = '';
+	public $proxy_port = '';
+	public $proxy_user = '';
+	public $proxy_pass = '';
+	public $MetaRights = '';
+	public $sitename_pagetitles = '0';
+	public $force_ssl = '0';
+	public $session_memcache_server_host = 'localhost';
+	public $session_memcache_server_port = '11211';
+	public $session_memcached_server_host = 'localhost';
+	public $session_memcached_server_port = '11211';
+	public $frontediting = '1';
+	public $feed_email = 'author';
+	public $cookie_domain = '';
+	public $cookie_path = '';
+	public $asset_id = '1';
 }

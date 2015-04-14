@@ -140,7 +140,9 @@ else
 					<a class="brand pull-left" href="<?php echo $this->baseurl; ?>">
 						<div id="logo-placement">
                         
-							<?php echo $logo; ?>
+							<?php
+								 echo $logo; 
+							 ?>
 						</div>
 						<?php if ($this->params->get('sitedescription')) : ?>
 							<?php echo '<div class="site-description">' . htmlspecialchars($this->params->get('sitedescription')) . '</div>'; ?>
@@ -156,15 +158,19 @@ else
 					<jdoc:include type="modules" name="position-1" style="none" />
 				</nav>
 			<?php endif; ?>
+
 			<jdoc:include type="modules" name="banner" style="xhtml" />
+			<hr><hr><hr>
 			<div class="row-fluid">
+              <hr><hr><hr>
 				<?php if ($this->countModules('position-8')) : ?>
 					<!-- Begin Sidebar -->
-					<div id="sidebar" class="span3">
+<!--					<div id="sidebar" class="span3">
 						<div class="sidebar-nav">
 							<jdoc:include type="modules" name="position-8" style="xhtml" />
 						</div>
 					</div>
+-->                 
 					<!-- End Sidebar -->
 				<?php endif; ?>
 				<main id="content" role="main" class="<?php echo $span; ?>">
